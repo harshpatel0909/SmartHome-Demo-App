@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="fullname">fullname</string>
+    <string name="email">email</string>
+    <string name="Loginhere">Already have an account? <u>Login</u></string>
+    <string name="signuphere">Create a new account? SignUp</string>
+    <string name="welcome">Welcome</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="loginstate">loginstate</string>
+    <string name="my_home">My Home</string>
+    <string name="scene"><![CDATA[Scene >]]></string>
+</resources>

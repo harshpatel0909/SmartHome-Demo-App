@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.SmartHome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_final_complete_logo"
+        android:label="Smart Home"
+        android:roundIcon="@mipmap/ic_final_complete_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginRegister"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.SmartHome.Login"
+
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.SmartHome.SignUp"
+
+                android:theme="@style/Theme.Design.Light.NoActionBar"/>
+
+        <activity android:name="com.example.SmartHome.MainActivity"
+
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/allDevices"
+            android:icon="@drawable/devices"
+            android:title="All Devices" />
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/messages"
+            android:title="Messages" />
+        <item
+            android:id="@+id/howtouse"
+            android:icon="@drawable/how_to_use"
+            android:title="How to use" />
+        <item
+            android:id="@+id/notices"
+            android:icon="@drawable/notices"
+            android:title="Notices" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/navItemlogout"
+            android:icon="@drawable/log_out"
+            android:title="Log Out" />
+
+    </group>
+</menu>
